@@ -1,0 +1,7 @@
+# action.yml
+name: 'async publisher'
+description: 'generic used to upload static assets to remote server.'
+author: 'vv13'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
