@@ -15,7 +15,7 @@ use async to upload files.
 ## Example
 ```
 - name: rsync to server
-  uses: vv13/rsync-publisher@v1.0
+  uses: vv13/rsync-publisher@v1
   env:
     DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
     SERVER_DEST: ${{ secrets.SERVER_DEST }}
