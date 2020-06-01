@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Publish build assets
-      uses: vv13/rsync-publisher@v1
+      uses: ./
       env:
         DEPLOY_KEY: ${{ secrets.DEPLOY_KEY }}
         SERVER_DEST: ${{ secrets.SERVER_DEST }}
